@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sapoPula</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="heading">
+        <ul>
+            <li><a href="#">login</a></li>
+            <li><a href="#imc">imc</a></li>
+            <li><a href="https://www.google.com/search?sca_esv=6446f2814689b8a4&sxsrf=
+                APpeQnvG6DhfH38sevOh1o21SZVj9kV_-w:1789156113546&udm=2&fbs=ABfTbFVGaQea
+                qnsRPI5sOMG32KszkLt6nAp8aiRKj5vMjqZApOc6yfvD6e0PKT-w9T4UNd5LfevPPp_-UkKL
+                MmZR1GPOiZqOM67JyEFeXx8s7WPqFRnjMLMCMUx3baBwVaXFUY0wPs0zgwX_yMquVtg2BXga9
+                JfPX0zM37ubHWPLh12oZmw5Jte2Q9swEAvqny2-GgwobKRhO8n_UIS7PRz_9GWyDesi_Q&q=
+                sapos&sa=X&ved=2ahUKEwiSt-H0peeWAxUMJrkGHV8jIUIQtKgLegQIJhAB&cshid=1789156
+                139754652&biw=1920&bih=911&dpr=1" target="_blank">sapos</a></li>
+        </ul>
+    </nav>
+    
+    <section class="container" id="inicio">
+        <h1>Login</h1>
+        <p>Efetue seu login.</p>
+
+        <form class="form" id="formId" action="" method="get">
+            
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" required>
+
+            <button class="submit" type="submit">Enviar</button>
+            <button class="nao" type="button">Nao</button>
+
+        </form>
+    </section>
+    <section class="container_escondido" id="imc">
+        <h1>Bem vindo!</h1>1
+        <p>Que otimo ter voce de volta, verme insolente.</p>
+        <h2>Tabela imc</h2>
+        <div>
+            <div class="divis">
+                <h3>IMC</h3>
+                <p>Menos que 18,5</p>
+                <p>Entre 18,5 e 24,9</p>
+                <p>Entre 25 e 29,9</p>
+                <p>Entre 30 e 34,9</p>
+                <p>Entre 35 e 39,9</p>
+                <p>Mais do que 40</p>
+            </div>
+            <div class="divis">
+                <h3>Resultado</h3>
+                <p>Abaixo do peso</p>
+                <p>Peso normal</p>
+                <p>Sobrepeso</p>
+                <p>Obesidade grau I</p>
+                <p>Obesidade grau II</p>
+                <p>Obesidade grau III</p>
+            </div>
+        </div>
+        <form class="form" id="formImc" action="">
+            <input type="number" id="peso" placeholder="Insira seu peso">
+            <input type="text" id="altura" placeholder="Insira sua altura">
+            <button class="submit" type="submit">Calcular</button>
+        </form>
+        <div class="caixaResultado">
+            <p>resultado</p>
+        </div>
+    </section>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
